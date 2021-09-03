@@ -1,1 +1,39 @@
-hello
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Tony's Blog</title>
+    </head>
+    
+    <body>
+        <header>
+            <h1>Tony's Blog</h1>
+        </header>
+        <main>
+            <h2>Blog Post 1</h2>
+            <h3>September 2, 2021</h3>
+            <p>I learned how to draw a line using the html5 canvas tag and some javascript. I used attributes to specify the size and look of the canvas. Then I used inline javascript to create the blue line inside the canvas.</p>
+            <canvas id="myCanvas" width="384" height="216" style="border:
+                        1px solid"></canvas>
+            <a href="https://www.w3schools.com/html/html5_canvas.asp">canvas
+                source</a>
+            <p>I also learned how to create an iframe to display a site within a
+            small box. Using an iframe, I can link to a site and display it within
+            another frame.</p>
+            <iframe src="http://pautx.me" title="inception" width="384"
+                height="216"></iframe>
+            <a href="https://www.w3schools.com/html/html_iframe.asp">iframe
+                source</a>
+        </main>
+
+        <script>
+            var c = document.getElementById("myCanvas");
+            var ctx = c.getContext("2d");
+            ctx.moveTo(0, 216 / 2);
+            ctx.lineTo(384, 100);
+            ctx.strokeStyle = "#0000ff";
+            ctx.lineWidth = 20;
+            ctx.stroke();
+        </script>
+    </body>
+</html>
