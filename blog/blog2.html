@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Tony's Blog</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="icon" href="" />
+        <meta charset="UTF-8" />
+    </head>
+    
+    <body>
+        <header>
+            <h1>Tony's Blog</h1>
+        </header>
+        <main>
+            <h2>Blog Post 2</h2>
+            <h3>September 8, 2021</h3>
+            <p>I learned how to do an animation using css. Without javascript I
+            can use a bunch of css attributes to specify how long the animation
+            lasts, number of repetitions, and how the animation transitions.</p>
+            <div id="anim-block">animation!</div>
+            <code>
+                <pre>
+@keyframes fade-anim {
+    from {background-color: red;}
+    to {background-color: black;}
+}
+
+#anim-block {
+    padding: 20px;
+    background-color: #ffffff;
+    animation-name: fade-anim;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+                </pre>
+            </code>
+            <a href="https://www.w3schools.com/css/css3_animations.asp">CSS animations source</a>
+
+            <p>I also learned how to make a gradient color. This allows for some
+            cool color effects.</p>
+
+            <div id="gradient-block1">gradient!</div>
+            <br />
+            <div id="gradient-block2">gradient!</div>
+
+            <a href="https://www.w3schools.com/Css/css3_gradients.asp">CSS gradient source</a>
+        </main>
+    </body>
+</html>

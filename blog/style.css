@@ -1,0 +1,48 @@
+body {
+    margin: 25px 50px;
+    background-color: #303030;
+    color: #f1f1f1;
+}
+
+main {
+    font-size: 20px;
+}
+
+li {
+    list-style-type: none;
+    margin-bottom: 16px;
+}
+
+a {
+    color: lightblue;
+}
+
+pre {
+    border: 1px solid #f1f1f1;
+    padding: 16px;
+}
+
+@keyframes fade-anim {
+    from {background-color: red;}
+    to {background-color: black;}
+}
+
+#anim-block {
+    padding: 20px;
+    background-color: #ffffff;
+    animation-name: fade-anim;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#gradient-block1 {
+    padding: 20px;
+    background-image: linear-gradient(red, black, blue);
+}
+
+#gradient-block2 {
+    padding: 20px;
+    height: 300px;
+    background-image: radial-gradient(red, green, gray, blue, black);
+}
