@@ -85,6 +85,17 @@ nav ul li a:hover {
     background-color: #00000044;
 }
 
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#gallery img {
+    width: 128px;
+    height: 128px;
+    padding: 5px;
+}
+
 .background {
     background-color: #1e1e1e;
 }
