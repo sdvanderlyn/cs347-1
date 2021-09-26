@@ -46,3 +46,11 @@ pre {
     height: 300px;
     background-image: radial-gradient(red, green, gray, blue, black);
 }
+
+:root {
+    --big-size: 100px;
+}
+
+.var {
+    font-size: var(--big-size);
+}

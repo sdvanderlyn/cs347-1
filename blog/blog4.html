@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Tony's Blog</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="icon" href="" />
+        <meta charset="UTF-8" />
+    </head>
+    
+    <body>
+        <header>
+            <h1>Tony's Blog</h1>
+        </header>
+        <main>
+            <h2>Blog Post 4</h2>
+            <h3>September 26, 2021</h3>
+            <p>I learned how to put tooltips on text. This would be useful for acronyms or words that may not be clear to my audience. Simply put a title attribute on the spanned text. <span title="This is a tooltip!">Hover over me!</span></p>
+            <code>
+                <pre>
+&lt;span&gt;title="This is a tooltip!">Hover over me!&lt;/span&gt;
+                </pre>
+            </code>
+            <a href="https://www.educba.com/html-tooltip/">Tooltip source</a>
+
+            <p>Apparently, you can also store variables in vanilla css. Using the var() function, you can define a css value to a variable.</p>
+
+            <code>
+                <pre>
+:root {
+    --big-size: 100px;
+}
+
+.var {
+    font-size: var(--big-size);
+}
+
+&lt;p&gt;I will make this &lt;span class="var"&gt;word&lt;/span&gt; very big!&lt;/p&gt;
+                </pre>
+            </code>
+
+<p>I will make this <span class="var">word</span> very big!</p>
+            <a href="https://www.w3schools.com/css/css3_variables.asp">CSS variables source</a>
+        </main>
+    </body>
+</html>
