@@ -63,6 +63,8 @@ nav ul li a:hover {
 #hero {
     text-align: center;
     background-image: url(../images/hero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     padding: 128px 0;
     font-family: determination, sans-serif;
     font-size: 48px;
