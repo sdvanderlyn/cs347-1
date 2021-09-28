@@ -118,3 +118,39 @@ main p {
 footer {
     text-align: center;
 }
+
+.profile {
+    border-radius: 100%;
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin: auto;
+}
+
+form label {
+    font-size: 22px;
+}
+
+form input {
+    width: 100%;
+    height: 40px;
+    padding: 0 10px;
+    margin: 0 0 20px 0;
+}
+
+form #message {
+    width: 100%;
+}
+
+.submit {
+    background-color: green;
+    display: block;
+    margin: auto;
+    border: none;
+}
+
+.submit:hover {
+    background-color: darkgreen;
+    border: none;
+    cursor: pointer;
+}
