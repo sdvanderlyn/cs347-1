@@ -1,0 +1,39 @@
+.profile {
+    border-radius: 100%;
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin: auto;
+}
+
+form label {
+    font-size: 22px;
+}
+
+form input {
+    width: 100%;
+    height: 40px;
+    padding: 0 10px;
+    margin: 0 0 20px 0;
+}
+
+textarea {
+    min-width: 100%;
+    height: 200px;
+    display: inline-block;
+    padding: 0 10px;
+    resize: none;
+}
+
+.submit {
+    background-color: green;
+    display: block;
+    border: none;
+    margin: 20px;
+}
+
+.submit:hover {
+    background-color: darkgreen;
+    border: none;
+    cursor: pointer;
+}
