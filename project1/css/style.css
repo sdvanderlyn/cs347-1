@@ -61,48 +61,6 @@ nav ul li a:hover {
     color: white;
 }
 
-
-#hero {
-    text-align: center;
-    background-image: url(../images/hero.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 128px 0;
-    font-family: determination, sans-serif;
-    font-size: 48px;
-    line-height: 2;
-}
-
-
-#hero p {
-    background-color: #00000044;
-    margin-bottom: 64px;
-}
-
-#hero a {
-    color: #f0f0f0;
-    border: 8px solid #f0f0f0;
-    padding: 8px 32px;
-    text-decoration: none;
-    transition: background-color 0.5s;
-}
-
-#hero a:hover {
-    background-color: #00000044;
-    transition: background-color 0.5s;
-}
-
-#gallery {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#gallery img {
-    width: 128px;
-    height: 128px;
-    padding: 5px;
-}
-
 .background {
     background-color: #1e1e1e;
 }
