@@ -48,10 +48,12 @@ nav ul li a {
     color: #b0b0b0;
     font-family: determination, sans-serif;
     display: inline-block;
+    transition: color 0.25s;
 }
 
 nav ul li a:hover {
     color: white;
+    transition: color 0.25s;
 }
 
 .active a {
@@ -82,10 +84,12 @@ nav ul li a:hover {
     border: 8px solid #f0f0f0;
     padding: 8px 32px;
     text-decoration: none;
+    transition: background-color 0.5s;
 }
 
 #hero a:hover {
     background-color: #00000044;
+    transition: background-color 0.5s;
 }
 
 #gallery {
