@@ -13,4 +13,5 @@ after seeing how well th rest of the folders are.
 
 5a. One thought I'd propose is adding something in the left and right margin of most pages (maybe a pixel art type thing)
 along the text so that space is used instead of being left untouched.
-5b. 
+5b. Another is to maybe add color to each heading in the tutorial section and possiboly in font you did the "pixel land" on your nav bar!
+    I think that would bring enough color or be a good start.  
