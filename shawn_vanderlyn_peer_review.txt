@@ -1,0 +1,16 @@
+1. I like the cleanliness of the site. Everything is well put together and in a nice format. I also like the easy navigational
+ability of buttons that arent included in the nav bar but still help swith pages.
+
+2. I feel like your site is the complete opposite of mine apearrance wise. I took a more colorfull aproach, while yours is more 
+dull with the blackish-gray background and white text. I do like it, but over time scrolling through all the text did make looking 
+at the site a strain on my eyes. 
+
+3. Code is well indented and everything looks easy to follow. I couldnt view the thing under the fonts file but I beleive in should be fine 
+after seeing how well th rest of the folders are.
+
+4a. I noticed when changing window size everything is good, but the perspective images where you show the different games doesnt update also.
+4b. Content wise just adding some commas or editing the text a little bit shold clean those up.
+
+5a. One thought I'd propose is adding something in the left and right margin of most pages (maybe a pixel art type thing)
+along the text so that space is used instead of being left untouched.
+5b. 
